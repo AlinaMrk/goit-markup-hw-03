@@ -78,11 +78,23 @@ a {
   outline: 3px solid red;
 }
 /*-------------------------------HEADER--------------------------------*/
+.page-header {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
 .header {
   background-color: #ffffff;
 }
-
+.contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
 .logo-title {
   font-family: Raleway;
   font-size: 26px;
