@@ -20,11 +20,9 @@
 <body>
     <!-- Шапка сайта Портфолио-->
     <header class="page-header">
-        <div class="container header-container">
+        <div class="header-container">
             <nav class="navigation">
-                <div class="logo">
-                    <a class="logo-title" href="/">Web<span class="logo-link">Studio</span></a>
-                </div>
+                <a class="logo-title" href="/">Web<span class="logo-link">Studio</span></a>
                 <ul class="header-list list">
                     <li class="header-item"><a class="header-link" href=" ./index.html">Студия</a></li>
                     <li class="header-item"><a class="header-link current" href="./portfolio.html">Портфолио</a></li>
@@ -32,8 +30,9 @@
                 </ul>
             </nav>
             <ul class="contacts list">
-                <li><a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="tel-link">+38 096 111 11 11</a></li>
+                <li class="header-item"><a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a>
+                </li>
+                <li class="header-item"><a href="tel:+380961111111" class="tel-link">+38 096 111 11 11</a></li>
                 </li>
             </ul>
         </div>
@@ -119,17 +118,15 @@
     </main>
     <!--  Секция контакты -->
     <footer class="page-footer">
-        <div class="container">
+        <div class="footer-container">
             <a class="logo-title" href="/">Web<span class="logo-link-first">Studio</span></a>
             <address class="footer-address">
-                <ul class="contacts-list">
-                    <li class="address-list list">
-                        <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="address-list">
+                    <li class="address-item"><a class="footer-address" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="footer-mail"><a class="link-mail" href="mailto:info@example.com">info@example.com</a>
                     </li>
-                    <ul class="contacts list">
-                        <li><a href="mailto:info@devstudio.com" class="mail-link-first">info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111" class="tel-link-first">+38 096 111 11 11</a></li>
-                    </ul>
+                    <li class="link-tel"><a class="tel:+380991111111">+38 099 111 11 11</a></li>
+                </ul>
             </address>
         </div>
     </footer>
