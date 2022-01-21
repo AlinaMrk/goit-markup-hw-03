@@ -20,7 +20,7 @@
 <body>
     <!-- Шапка сайта Студия-->
     <header class="page-header">
-        <div class="header-container">
+        <div class="container header-container">
             <nav class="navigation">
                 <a class="logo-title" href="/">Web<span class="logo-link">Studio</span></a>
                 <ul class="header-list list">
@@ -36,16 +36,16 @@
         </div>
     </header>
     <!-- Секция Эффективные решения -->
-    <main class="page-main">
-        <section class="hero-section">
-            <div class="hero-container">
+    <main>
+        <section class="section hero-section">
+            <div class="container hero-container">
                 <h1 class="hero-title">Эффективные решения</br>для вашего бизнеса</h1>
                 <button type="button" class="hero-button">Заказать услугу</button>
             </div>
         </section>
         <!-- Секция детали -->
-        <section class="feature">
-            <div class="feature-container">
+        <section class="section">
+            <div class="container">
                 <ul class="feature-list list">
                     <li class="feature-item">
                         <h3 class="feature-title">Внимание к деталям</h3>
@@ -71,8 +71,8 @@
             </div>
         </section>
         <!-- Секция занятия-->
-        <section class="info-section">
-            <div class="info-container">
+        <section class="section">
+            <div class="container">
                 <h2 class="info-title">Чем мы занимаемся</h2>
                 <ul class="info-list list">
                     <li class="info-item">
@@ -91,33 +91,41 @@
             </div>
         </section>
         <!-- Секция команда -->
-        <section class="about-section">
-            <div class="about-container">
+        <section class="section about-section">
+            <div class="container">
                 <h2 class="about-team">Наша команда</h2>
                 <ul class="about-list list">
                     <li class="about-item">
                         <img src="images/about-img-1.jpg" alt="Игорь Демьяненко" width="270" height="260"
                             class="about-img" />
-                        <h3 class="about-title">Игорь Демьяненко</h3>
-                        <p class="about-text">Product Designer</p>
+                        <div class="about">
+                            <h3 class="about-title">Игорь Демьяненко</h3>
+                            <p class="about-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="about-item">
                         <img src="images/about-img-2.jpg" alt="Ольга Репина" width="270" height="260"
                             class="about-img" />
-                        <h3 class="about-title">Ольга Репина</h3>
-                        <p class="about-text" lang="en">Frontend Developer</p>
+                        <div class="about">
+                            <h3 class="about-title">Ольга Репина</h3>
+                            <p class="about-text" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="about-item">
                         <img src="images/about-img-3.jpg" alt="Николай Тарасов" width="270" height="260"
                             class="about-img" />
-                        <h3 class="about-title">Николай Тарасов</h3>
-                        <p class="about-text" lang="en">Marketing</p>
+                        <div class="about">
+                            <h3 class="about-title">Николай Тарасов</h3>
+                            <p class="about-text" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="about-item">
                         <img src="images/about-img-4.jpg" alt="Михаил Ермаков" width="270" height="260"
                             class="about-img" />
-                        <h3 class="about-title">Михаил Ермаков</h3>
-                        <p class="about-text" lang="en">UI Designer</p>
+                        <div class="about">
+                            <h3 class="about-title">Михаил Ермаков</h3>
+                            <p class="about-text" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -125,7 +133,7 @@
     </main>
     <!-- Секция контакты -->
     <footer class="page-footer">
-        <div class="footer-container">
+        <div class="container footer-container">
             <a class="logo-title" href="/">Web<span class="logo-link-first">Studio</span></a>
             <address class="footer-address">
                 <ul class="address-list list">
