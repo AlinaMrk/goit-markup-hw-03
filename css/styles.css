@@ -179,11 +179,10 @@ ul {
 }
 
 /*-------------------------------MAIN---------------------------*/
-/*----hero---*/
-.hero-container {
+/*---section-hero---*/
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin: auto;
   background-color: #2f303a;
 }
 
